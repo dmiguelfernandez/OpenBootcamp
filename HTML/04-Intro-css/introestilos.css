@@ -1,0 +1,48 @@
+/*Estilos para colores*/
+.colores {
+  color: orangered;
+}
+.color_hexadecimal {
+  color: #d6edff;
+}
+
+.color_rgb {
+  color: rgba(255, 16, 3);
+}
+
+.color_rgba {
+  color: rgba(255, 16, 3, 0.568);
+}
+
+/*Fondos*/
+
+.fondo {
+  background-color: red;
+  background-image: url("https://d33wubrfki0l68.cloudfront.net/89a052ddc6d368ce93d9067e8444c36a3558efe7/f9e10/static/triangle_background2-6eded4a7ad80c007fb65f02c828e5dd0.jpg");
+  background-position: top center;
+}
+.interno{
+    background-color: red;
+  background-image: url("imagenes/fondo.jpg");
+  background-position: top center;
+}
+
+.ancho{
+    background-color: yellow ;
+    width: 100px;
+}
+
+.alto{
+    background-color: aquamarine;
+    
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin: 10px 20px;
+
+}

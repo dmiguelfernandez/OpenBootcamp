@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+}
+/*Estoy probando colores y fuente*/
+p {
+    color: rgb(38, 0, 255);
+    font-size: 16pt;
+}
+p#primeranoticia{ /*Solo los que tengan una p tendran este estilo selector + id*/
+    color: green;
+    font-size: 12pt;
+}
+#segundanoticia{
+    color: darkmagenta;
+} 
+.encabezado{
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+*.warning { /*Cualquier elemento que contenga la class warning selector universal*/
+    color: red;
+}
+.autor, .fecha, .ubicacion, h1, #segundanoticia{
+    text-decoration: underline;
+}

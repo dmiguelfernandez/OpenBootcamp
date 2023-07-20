@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pseudoclases</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .hover {
+        width: 300px;
+        height: 300px;
+        background-color: bisque;
+      }
+
+      .hover:hover {
+        /*Se activa en cuanto el raton pasa por encima*/
+        background-color: chartreuse;
+      }
+      .listado {
+        padding: 15px;
+        background-color: bisque;
+      }
+
+      .listado p:first-child {
+        color: white;
+      }
+      a:link {
+        /*Link no visitados*/
+        color: deeppink;
+      }
+
+      a:visited {
+        color: crimson;
+      }
+
+      a:hover {
+        color: pink;
+      }
+
+      a:active {
+        color: greenyellow;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="hover">
+      <p>
+        Aliquip do dolore ea ut occaecat aliquip Lorem eu veniam deserunt Lorem
+        ea ad eu. Pariatur nostrud et in mollit id fugiat elit. Consectetur
+        Lorem dolor id dolor excepteur minim esse sint nostrud labore do elit.
+      </p>
+    </div>
+    <div class="listado">
+      <p>Parrafo 1</p>
+      <p>Parrafo 2</p>
+      <p>Parrafo 3</p>
+    </div>
+    <div class="enlaces">
+      <a href="http://google.com" target="_blank">Enlace a Google</a>
+      <a href="http://marca.com" target="_blank">Enlace a Marca</a>
+    </div>
+  </body>
+</html>
